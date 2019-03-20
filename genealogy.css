@@ -1,0 +1,372 @@
+body { background-color: #A7A37E; font-family: 'Source Sans Pro', sans-serif;
+        }
+
+
+#wrapper { background-color: #F6E8B1;
+            width: 80%; 
+            margin: auto;
+            padding: 0; 
+            box-shadow: 0 0 40px #002F2F;
+             }
+
+.banner { height: 15em; 
+        width: 100%; 
+        margin: auto; 
+        display: inline-block; 
+        background-image: url(letters.jpg); 
+        background-repeat: no-repeat;
+        background-size: cover; 
+     }
+
+.bannertext { text-align: center;
+              font-size: 4.5vw; 
+              color: #FCCA46;
+              font-weight: bold;
+              padding-top: 5vw;
+              text-shadow: 6px 6px 2px #002F2F;
+              font-family: 'Merriweather', serif; }
+
+
+nav { text-align: center;
+        font-weight: bold;
+        padding-top: 1em; 
+        width: 100%; 
+        font-family: 'Merriweather', serif;
+}
+             
+
+nav a:link { color: #000000; }
+nav a:visited { color: #F6E8B1; }
+nav a:hover { color: #046380; 
+                border: 3px inset #002F2F; }
+
+
+nav a { text-decoration: none; 
+        display: inline-block; 
+        text-align: center;
+        font-weight: bold;
+        border: 2px outset #333333; 
+        padding: 1em;
+        font-size: 1em;
+        box-shadow: 2px 2px 2px #333333; 
+        margin: .2em; 
+        font-family: 'Merriweather', serif;
+        background-color: #A7A37E; }
+    
+
+a { text-decoration: none; color: #046380; }
+
+table { border-collapse: collapse; 
+        margin-left: auto; 
+        margin-right: auto; 
+        margin-top: 4em; 
+        font-size: 18px; 
+        color: #000000;
+        font-family: 'Source Sans Pro', sans-serif;  }
+
+th, td { border: 1px solid #002F2F; 
+            text-align: left; 
+            padding: 10px;
+            font-family: 'Source Sans Pro', sans-serif; }
+
+tr:nth-child(even) { background-color: #A7A37E; }
+
+
+
+.services { color: #002F2F;
+            width: 95%;
+            display: inline-block;
+            font-size: 1.2em; 
+            margin-left: 2em;
+            margin-bottom: 1em; 
+            }
+
+.servicestext { color: #046380;
+                font-size: 1.8vw;
+                background-color: #F6E8B1;
+                text-align: left;
+                margin-top: 2em; 
+                font-family: 'Merriweather', serif; }
+
+.findwhotext { color: #002F2F;
+                font-size: 1.6vw;
+                background-color: #F6E8B1;
+                padding-top: 1em;
+                text-align: left;
+                font-family: 'Merriweather', serif; }
+
+.searchestext { color: #002F2F;
+                font-size: 1.6vw;
+                background-color: #F6E8B1;
+                padding-top: 1em;
+                text-align: left;
+                font-family: 'Merriweather', serif; }
+
+ul li { font-size: 1em; font-family: 'Source Sans Pro', sans-serif; }
+
+
+.adoption { color: #002F2F;
+            width: 95%;
+            display: inline-block;
+            font-size: 1.2em;
+            margin-left: 2em; 
+            margin-bottom: 1em; 
+            }
+
+.adoptiontext { color: #046380;
+                font-size: 1.8vw;
+                background-color: #F6E8B1; 
+                padding-top: 20px;
+                text-align: left;
+                font-family: 'Merriweather', serif;} 
+            
+
+.missingpeople { color: #002F2F;
+                width: 95%;
+                display: inline-block; 
+                font-size: 1.2em;
+                margin-bottom: 1em;
+                margin-left: 2em; 
+}
+
+.missingpeopletext { color: #046380;
+                font-size: 1.8vw;
+                background-color: #F6E8B1;
+                text-align: left;
+                font-family: 'Merriweather', serif; }
+
+
+figure { float: right; 
+         width: 40%;
+         margin-left: 1vw; 
+         margin-bottom: 3vh; 
+         padding-bottom: 1vw;
+         background-color: #F6E8B1; }
+
+.figure2 { float: left; 
+         width: 40%;
+         margin-bottom: 3vh; 
+         margin-right: 3vw; 
+         background-color: #F6E8B1; }
+
+
+.family { background-image: url(whitebooks.jpg);
+            opacity:.9; 
+            background-size: cover;
+            background-repeat: no-repeat;
+            height: 25em; 
+            margin-left: 2.8em;
+            margin-right: 2.8em; 
+            margin-top: 1em; 
+            margin-bottom: 1em; 
+            box-shadow: 5px 5px 5px #000000; }
+
+.familytext { color: #046380;
+                font-size: 1.8vw;
+                background-color: #F6E8B1;
+                text-align: left;
+                padding-left: 42px;
+                padding-top: 20px; 
+                font-family: 'Merriweather', serif;
+         }
+
+.familytext2 { color: #000000;
+                 width: 80%; 
+                 padding-top: 3.3vh; 
+                 padding-left: 8vw; 
+                 padding-right: .5vw; 
+                 font-size: 17px; 
+                 font-family: 'Merriweather', serif; }
+
+.spantext { text-align: center;
+            color: #000000;
+            font-weight: bold; 
+            width: 100%; 
+            font-size: 20px; 
+             font-family: 'Merriweather', serif; }
+
+.quotecontainer { font-size: 1.2em; 
+                  background-color: #002F2F;
+                  color: #F6E8B1;
+                  border: 1px ridge #000000;
+                  border-radius: 15px; 
+                  margin-left: 2.2em;
+                  margin-right: 2.2em;
+                  margin-top: 2em;
+                  margin-bottom: 2.5em;
+                  padding: 1em; 
+                  box-shadow: 5px 5px 5px #333333;
+                  font-family: 'Lato', sans-serif;
+                  font-style: italic; } 
+
+.aboutus { color: #002F2F;
+            width: 95%;
+            display: inline-block;
+            font-size: 1.2em; 
+            margin-left: 2em;
+            }
+
+.aboutustext { color: #046380;
+                font-size: 1.8vw;
+                background-color: #F6E8B1;
+                text-align: left;
+                margin-top: 1em; 
+                font-family: 'Merriweather', serif; }
+
+.contact { color: #002F2F;
+        width: 100%;
+        display: inline-block;
+     }
+
+.contacttext { color: #046380;
+        font-size: 1.8vw;
+        background-color: #F6E8B1;
+        text-align: center;
+        font-family: 'Merriweather', serif;
+        float: none;
+        clear: both; 
+        }
+
+.contacttext2 { color: #002F2F;
+        width: 100%; 
+        padding-top: 0; 
+        margin-left: auto; 
+        margin-right: auto;
+        text-align: center; 
+        font-size: 1.4em; 
+        font-family: 'Source Sans Pro', sans-serif; }
+
+footer { background-color: #F6E8B1;
+         color: #002F2F; 
+         width: 100%; 
+         text-align: center;
+         padding-top: 2em;
+         padding-bottom: 2em;
+         font-family: 'Source Sans Pro', sans-serif;
+         font-weight: bold; }
+
+.companytext { color: #002F2F;
+                font-size: 1.6vw;
+                background-color: #F6E8B1;
+                padding-top: 1em;
+                text-align: left;
+                font-family: 'Merriweather', serif; }
+
+.gallerytext { color: #002F2F;
+                font-size: 1.6vw;
+                background-color: #F6E8B1;
+                text-align: center;
+                font-family: 'Merriweather', serif; }
+
+.gallery { margin: 15px 60px 15px 60px; display: inline-block; position: relative; }
+
+.gallery img { transition: 1s; padding: 15px; width: 200px; }
+
+.gallery img:hover { filter: grayscale(100%); transform: scale(1.1); 
+}
+
+
+blockquote {
+    background: #F6E8B1;
+    border-radius: 10px;
+    font-family: 'Source Sans Pro', sans-serif;
+    font-style: italic;
+    font-size: 1.2em;
+}
+
+blockquote p {
+    padding: 15px;
+}
+
+blockquote p::before {
+    content: '\201C';
+}
+
+blockquote p::after {
+    content: '\201D';
+}
+
+.gpara { color: #333333;
+            width: 90%;
+            display: block;
+            font-size: 1.2em;
+            margin-bottom: 1em;
+            text-align: left; 
+            margin-left: auto;
+            margin-right: auto;
+            }
+
+.figure3 { display: block; border: 10px; float: none; clear: both; margin-left: auto; margin-right: auto;  
+         width: 30%;
+         padding-bottom: 1vw;
+         background-color: #F6E8B1; padding-top: 1em; }
+
+header, main, nav, footer, figure, figcaption { display: block; }
+    
+@media only screen and (min-width: 37.6em) and (max-width: 64em) {
+        body { margin: 0; } 
+        #wrapper { width: auto; }
+        main { margin-left: 0; }
+        nav { float: none; width: auto; clear: both; font-size: 2vw; }
+        nav li { display: inline-block; padding: 0; }
+        nav ul { text-align: center; }
+        nav a { border-style: none; }
+        p { font-size: 1.3em; }
+        .bannertext { font-size: 6vw; padding-top: 7vh; width: 60%;  margin-left: auto; margin-right: auto; }
+        .servicestext, .missingpeopletext, .familytext, .contacttext, .aboutustext, .adoptiontext { font-size: 25px; text-align: center; }
+        .findwhotext, .searchestext, .companytext, .gallerytext { font-size: 23px; }
+        figure { width: 50%; margin-left: auto; margin-right: auto;  float: none; clear: both; }
+        .figure2 { width: 50%; margin-left: auto; margin-right: auto; float: none; clear: both; margin-top: 1em; }
+        table { font-size: 1.1em; text-align: center;  }
+        .gallery { margin-left: auto; margin-right: auto;  }
+        .services { width: 70%; margin-left: 5em; font-size: 1em;  }
+        ul li { font-size: 1.3em; }
+        .adoption { width: 70%; margin-left: 5em; font-size: 1em;  }
+        .missingpeople { width: 70%; margin-left: 5em; font-size: 1em;  }
+        .aboutus { width: 70%; margin-left: 5em; font-size: 1em;  }
+        .spantext { font-size: 1.1em;  }
+        .familytext2 { font-size: 1.2em; }
+        .quotecontainer { font-size: 1.2em; }
+        blockquote { font-size: 1.2em; }
+        .gpara { font-size: 1.3em; }
+        .gallery { width: 90%; margin: 10px 0 10px 50px;  }
+        .contacttext2 { font-size: 1.2em; padding-top: 15px; } 
+        table { font-size: 1.1em; }
+        .figure3 { display: none; border: 10px; float: none; margin-left: auto; margin-right: auto; clear: both; }
+    .family { height: 33em; }
+}
+    
+@media only screen and (max-width: 37.5em) { 
+        body { margin: 0; } 
+        #wrapper { width: auto; }
+        main { margin-left: 0; }
+        nav, nav ul, nav li { padding: 0; clear: both; font-size: 1em; display: grid; }
+        nav li { display: block; }
+        nav a { display: block; padding: 0.5em 0; border-bottom: 2px ridge #000000; }
+        .bannertext { font-size: 8vw; padding-top: 3vh; width: 60%; margin-left: auto; margin-right: auto; }
+        .servicestext, .adoptiontext, .missingpeopletext, .familytext, .contacttext, .companytext, .gallerytext, .aboutustext  
+        { font-size: 6vw; text-align: center; padding-left: 0; padding-bottom: 1vw; text-decoration: underline; }
+        .findwhotext, .searchestext { font-size: 4.5vw; }
+        .contacttext2 { text-align: center; padding-bottom: 1vw; font-size: 1.3em; font-family: 'Kreon', serif;}
+        p { font-size: 5vw; }
+        figure { width: 70%; margin-left: 13vw;  }
+        .figure2 { width: 70%; margin-left: 13vw; }
+        figure { display: none; }
+        .figure2 { display: none; }
+        .gallery { display: inline; margin: 0; }
+        .family { height: 38em;}
+        .spantext { font-size: 1.2em; }
+        .familytext2 { font-size: 1.15em; }
+        ul li { font-size: 5vw; }
+        .quotecontainer { font-size: 1.2em; }
+        blockquote { font-size: 1.2em; }
+        .services, .adoption, .missingpeople, .aboutus { width: 70%; }
+        .figure3 { display: block; border: 10px; float: none; margin-left: auto; margin-right: auto; clear: both; width: 40%; padding-top: 2em; }
+        table { font-size: 1em; }
+
+}
+
+    
+    
+
+
